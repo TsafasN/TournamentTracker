@@ -34,7 +34,7 @@
             this.tournamentNameLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
             this.entryFeeLabel = new System.Windows.Forms.Label();
-            this.roundDropDown = new System.Windows.Forms.ComboBox();
+            this.selectTeamDropDown = new System.Windows.Forms.ComboBox();
             this.selectTeamLabel = new System.Windows.Forms.Label();
             this.createNewLinkLabel = new System.Windows.Forms.LinkLabel();
             this.addTeamButton = new System.Windows.Forms.Button();
@@ -99,13 +99,13 @@
             this.entryFeeLabel.TabIndex = 11;
             this.entryFeeLabel.Text = "Entry Fee";
             // 
-            // roundDropDown
+            // selectTeamDropDown
             // 
-            this.roundDropDown.FormattingEnabled = true;
-            this.roundDropDown.Location = new System.Drawing.Point(56, 353);
-            this.roundDropDown.Name = "roundDropDown";
-            this.roundDropDown.Size = new System.Drawing.Size(317, 38);
-            this.roundDropDown.TabIndex = 14;
+            this.selectTeamDropDown.FormattingEnabled = true;
+            this.selectTeamDropDown.Location = new System.Drawing.Point(56, 353);
+            this.selectTeamDropDown.Name = "selectTeamDropDown";
+            this.selectTeamDropDown.Size = new System.Drawing.Size(317, 38);
+            this.selectTeamDropDown.TabIndex = 14;
             // 
             // selectTeamLabel
             // 
@@ -264,7 +264,7 @@
             this.Controls.Add(this.createPrizeButton);
             this.Controls.Add(this.addTeamButton);
             this.Controls.Add(this.createNewLinkLabel);
-            this.Controls.Add(this.roundDropDown);
+            this.Controls.Add(this.selectTeamDropDown);
             this.Controls.Add(this.selectTeamLabel);
             this.Controls.Add(this.entryFeeValue);
             this.Controls.Add(this.entryFeeLabel);
@@ -288,7 +288,7 @@
         private Label tournamentNameLabel;
         private TextBox entryFeeValue;
         private Label entryFeeLabel;
-        private ComboBox roundDropDown;
+        private ComboBox selectTeamDropDown;
         private Label selectTeamLabel;
         private LinkLabel createNewLinkLabel;
         private Button addTeamButton;
